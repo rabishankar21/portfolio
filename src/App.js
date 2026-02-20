@@ -31,7 +31,7 @@ import project5 from "./assets/project/proj_5.png";
 // import projectVideo3 from "./assets/project/project3.mp4";
 // import projectVideo4 from "./assets/project/project7.mp4";
 
-import { FaLinkedinIn, FaGithub, FaYoutube, FaInstagram, FaTwitter, FaWhatsapp, FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaYoutube, FaInstagram, FaWhatsapp, FaFacebook } from "react-icons/fa";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFileDownload } from "react-icons/fa";
 
 export default function Portfolio() {
@@ -110,7 +110,7 @@ useEffect(() => {
                 </Nav.Link>
               ))}
 
-             <a href="mailto:rabidgp2004@gmail.com">
+             <a rel="noreferrer" href="mailto:rabidgp2004@gmail.com">
   <Button
     variant="outline-info"
     size="sm"
@@ -362,7 +362,8 @@ useEffect(() => {
 
                 <Button
                   variant="outline-info"
-                  href="https://linkedin.com"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/rabi-sankar-singh-b142b6264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   style={{ borderRadius: 30, padding: "8px 20px" }}
                 >
@@ -428,7 +429,7 @@ useEffect(() => {
                   <Card.Text style={{ fontSize: 14 }}>
                     Tech Use: HTML, CSS, BOOTSTRAP, JAVASCRIPT, PHP, MYSQL
                   </Card.Text>
-                  <Button href="https://vettapas.com" variant="primary">View Website</Button>
+                  <Button rel="noreferrer" href="https://vettapas.com" variant="primary">View Website</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -554,13 +555,13 @@ useEffect(() => {
                   <Card.Text style={{ fontSize: 14 }}>
                     Python, OpenCV, TensorFlow, YOLO, Flask
                   </Card.Text>
-                  <Button href="https://github.com/rabishankar21/ai-traffic-dashboard" variant="primary">View Project</Button>
+                  <Button rel="noreferrer" href="https://github.com/rabishankar21/ai-traffic-dashboard" variant="primary">View Project</Button>
                 </Card.Body>
               </Card>
             </Col>
             
             <Col xs={12} sm={6} md={6} lg={4} className="mb-4" data-aos="fade-up">
-              <Card className="h-100 shadow" style={{ background: "#020617", color:"white", border: "1px solid #1f2937" }}>
+              <Card className="h-100 shadow" style={{ background: "#020617", color: "white", border: "1px solid #1f2937" }}>
                 {/* <div className="videoCard">
                   <img src={project1} className="thumb" />
                    <video src={projectVideo1} muted autoPlay loop playsInline className="video"/>
@@ -572,9 +573,9 @@ useEffect(() => {
                     Developed a full-stack website for veterinary blogs and online consultation with modern UI and backend support.
                   </Card.Text>
                   <Card.Text style={{ fontSize: 14 }}>
-                    HTML, CSS, JAVASCRIPT, BOOTSTRAP, PHP, MYSQL
+                    HTML, CSS, JavaScript, BOOTSTRAP, PHP, MYSQL
                   </Card.Text>
-                  <Button href="https://vettapas.com" variant="primary">View Project</Button>
+                  <Button rel="noreferrer" href="https://vettapas.com" variant="primary">View Project</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -593,7 +594,7 @@ useEffect(() => {
                   <Card.Text style={{ fontSize: 14 }}>
                     HTML, CSS, JAVASCRIPT, BOOTSTRAP, PHP, MYSQL
                   </Card.Text>
-                  <Button href="#" variant="primary">View Project</Button>
+                  <Button rel="noreferrer" href="#" variant="primary">View Project</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -613,7 +614,7 @@ useEffect(() => {
                   <Card.Text style={{ fontSize: 14 }}>
                     Power BI, CSV, Python, Pandas, Numpy, Matplotlib, Seaborn
                   </Card.Text>
-                  <Button href="https://github.com/rabishankar21/megamart-ecommerce-sales-dashboard" variant="primary">View Project</Button>
+                  <Button rel="noreferrer" href="https://github.com/rabishankar21/megamart-ecommerce-sales-dashboard" variant="primary">View Project</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -632,7 +633,7 @@ useEffect(() => {
                   <Card.Text style={{ fontSize: 14 }}>
                     Power BI, CSV, Python, Pandas, Numpy, Matplotlib, Seaborn
                   </Card.Text>
-                  <Button href="https://github.com/rabishankar21/Lok-Mart-Sales-Dashboard" variant="primary">View Project</Button>
+                  <Button rel="noreferrer" href="https://github.com/rabishankar21/Lok-Mart-Sales-Dashboard" variant="primary">View Project</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -678,7 +679,7 @@ useEffect(() => {
   transition: 0.3s;
 }
 
-.contactBtn:hover {
+.contactBtn: hover {
    background: #8707ff;
 }
 
@@ -702,7 +703,7 @@ useEffect(() => {
   transition: 0.3s;
 }
 
-.socials a:hover {
+.socials a: hover {
   background: #a855f7;
   color: white;
 }
@@ -713,7 +714,7 @@ useEffect(() => {
   transition: 0.3s;
 }
 
-.contactCard:hover {
+.contactCard: hover {
   transform: translateY(-5px);
   box-shadow: 0 0 20px rgba(155, 89, 182, 0.5); /* purple glow */
 }
@@ -725,10 +726,10 @@ useEffect(() => {
 }
 .floating-whatsapp { position: fixed; right:18px; bottom:18px; z-index:9999; border-radius:50%; width:56px; height:56px; display:flex; align-items:center; justify-content:center; background:#25D366; color:#fff; box-shadow:0 8px 24px rgba(0,0,0,0.18); font-size:22px; }
 a{
-text-decoration:none;
+text-decoration: none;
 }
 [data-aos] {
-  transition-property: transform, opacity !important;
+  transition-property: transform, opacity! important;
 }
 
           `}</style>
@@ -742,14 +743,14 @@ text-decoration:none;
 <Row className="text-center xs-12 sm-6 md-5 lg-3" data-aos="fade-up">
   {[
     [<FaMapMarkerAlt />, "ADDRESS", "West Bengal, India"],
-    [<FaPhoneAlt />, "CONTACT NUMBER", <a href="tel:+917001408918">+91-7001408918</a>,],
-    [<FaEnvelope />, "EMAIL ADDRESS", <a href="mailto:rabidgp2004@gmail.com" className="text-decoration-none">
+    [<FaPhoneAlt />, "CONTACT NUMBER", <a href="tel:+917001408918" rel="noreferrer">+91-7001408918</a>,],
+    [<FaEnvelope />, "EMAIL ADDRESS", <a href="mailto:rabidgp2004@gmail.com" rel="noreferrer" className="text-decoration-none">
     rabidgp2004@gmail.com
   </a>],
     [
   <FaFileDownload />,
   "DOWNLOAD RESUME",
-  <a href={resume} download className="text-decoration-none">
+  <a href={resume} rel="noreferrer" download className="text-decoration-none">
     Download
   </a>
 ]
@@ -777,11 +778,11 @@ text-decoration:none;
     <div className="text-center">
       <p className="text-muted">Find me on</p>
       <div className="socials">
-  <a href="https://youtube.com/@datadrivenbyrabi?si=574BbkxGJojWmgZn"><FaYoutube /></a>
-  <a href="https://www.linkedin.com/in/rabi-sankar-singh-b142b6264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedinIn /></a>
-  <a href="https://www.facebook.com/profile.php?id=100071437804367"><FaFacebook /></a>
-  <a href="https://github.com/rabishankar21"><FaGithub /></a>
-  <a href="https://www.instagram.com/rabi_sankar112?igsh=aHptZTVsNXoyaXJx"><FaInstagram /></a>
+  <a href="https://youtube.com/@datadrivenbyrabi?si=574BbkxGJojWmgZn" rel="noreferrer"><FaYoutube /></a>
+  <a href="https://www.linkedin.com/in/rabi-sankar-singh-b142b6264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" rel="noreferrer"><FaLinkedinIn /></a>
+  <a href="https://www.facebook.com/profile.php?id=100071437804367" rel="noreferrer"><FaFacebook /></a>
+  <a href="https://github.com/rabishankar21" rel="noreferrer"><FaGithub /></a>
+  <a href="https://www.instagram.com/rabi_sankar112?igsh=aHptZTVsNXoyaXJx" rel="noreferrer"><FaInstagram /></a>
 </div>
 
     </div>
@@ -794,7 +795,7 @@ text-decoration:none;
         © 2026 Rabi Shankar Singh. All rights reserved.
       </footer>
       {/* Floating WhatsApp */}
-  <a href="https://wa.me/919635140634" target="_blank" class="floating-whatsapp" title="Chat on WhatsApp">
+  <a href="https://wa.me/919635140634" target="_blank" class="floating-whatsapp" rel="noreferrer" title="Chat on WhatsApp">
     <FaWhatsapp />
   </a>
     </div>
