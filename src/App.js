@@ -178,7 +178,7 @@ useEffect(() => {
                 <span className="typing">I'm Rabi Shankar Singh</span>
               </h1>
               <h4 className="mt-3">
-                <span className="typing2">AIML Developer & Web Developer</span>
+                <span className="typing2">AIML Engineer & Web Developer</span>
               </h4>
               <p className="mt-3">
                 I build AI-powered apps, dashboards, and full-stack web applications.
