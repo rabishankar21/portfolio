@@ -450,7 +450,7 @@ useEffect(() => {
                   <Card.Title>CyberCon Cybersecurity Seminar – BCET</Card.Title>
 
                   <Card.Text style={{ fontSize: 14 }}>
-                          Participated in the CyberCon Cybersecurity Seminar at BCET organized by The Drop Organization, Durgapur. Asked advanced cybersecurity questions during the session and received the "CyberCon" book as recognition for active participation and innovative thinking.
+                          Participated in the CyberCon Cybersecurity Seminar at BCET organized by The Drop Organization, Durgapur.
                   </Card.Text>
                 </Card.Body>
               </Card>
