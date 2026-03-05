@@ -18,6 +18,7 @@ import achievements1 from "./assets/achievment/nit.jpg";
 import achievements2 from "./assets/achievment/sahc.png";
 import achievements3 from "./assets/achievment/icsp.jpg";
 import achievements4 from "./assets/achievment/dicv.jpg";
+import achievements5 from "./assets/achievment/bcet.png";
 // project
 import project from "./assets/project/proj_1.png";
 import project1 from "./assets/project/proj_4.png";
@@ -442,6 +443,18 @@ useEffect(() => {
         <Container>
           <h2 className="text-center mb-5">Achievements</h2>
           <Row>
+              <Col xs={12} sm={6} md={6} lg={4} className="mb-4" data-aos="fade-up" >
+              <Card className="h-100 shadow" style={{ background: "#020617", color: "#e6edf3", border: "1px solid #1f2937" }}>
+                <Card.Img variant="top" src= {achievements5} />
+                <Card.Body>
+                  <Card.Title>CyberCon Cybersecurity Seminar – BCET</Card.Title>
+
+                  <Card.Text style={{ fontSize: 14 }}>
+                          Participated in the CyberCon Cybersecurity Seminar at BCET organized by The Drop Organization, Durgapur. Asked advanced cybersecurity questions during the session and received the "CyberCon" book as recognition for active participation and innovative thinking.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
             <Col xs={12} sm={6} md={6} lg={4} className="mb-4" data-aos="fade-up">
               <Card className="h-100 shadow" style={{ background: "#020617", color: "#e6edf3", border: "1px solid #1f2937" }}>
                 <Card.Img variant="top" src= {achievements} />
